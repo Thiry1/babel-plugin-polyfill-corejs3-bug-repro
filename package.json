@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-polyfill-corejs3-bug-repro",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src --out-dir ./build",
+    "start": "node ./build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "babel-plugin-polyfill-corejs3": "^0.5.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.19.0",
+    "core-js-pure": "3.20.0"
+  }
+}
